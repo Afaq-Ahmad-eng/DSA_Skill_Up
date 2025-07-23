@@ -1,4 +1,6 @@
 //[Approach - 1] Division by 2 - O(log₂(n)) Time and O(log₂(n)) Space
+//Description
+//To convert a decimal number to binary, repeatedly divide it by 2 and record the remainders. Reading these remainders in reverse gives the binary representation.
 // Function for converstion 
 function decToBinConverstion(n){
     // Array in which we store the bits
